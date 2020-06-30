@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row form-group">
+    <div class="col">
+      <h1>{{title}}</h1>
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col-sm-6">
+      <app-personal-details
+        [person]="person1"
+      >        
+      </app-personal-details>
+    </div>
+    <div class="col-sm-6">
+      <app-personal-details
+        [person]="person2"
+        [bgColor]="'warning'"
+      >        
+      </app-personal-details>
+    </div>
+  </div>
+</div>
